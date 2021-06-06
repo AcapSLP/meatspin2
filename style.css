@@ -2,8 +2,11 @@ body {
 background-color: black;
 }
 
-
+h1 {
+  size:7em
+}
 .meat {
+  display: none; 
     margin: auto;
   width: 100%;
  
@@ -18,4 +21,30 @@ display: block;
 .buttons {
   margin: auto;
  width: 20%;
+}
+.mute {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 10%
+  
+}
+.share {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.showbutton {
+  margin: auto;
+  width: 100%;
+ 
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
 }
